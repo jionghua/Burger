@@ -16,6 +16,9 @@
 		260B57561B3520FE00874766 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 260B57551B3520FE00874766 /* Images.xcassets */; };
 		260B57591B3520FE00874766 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 260B57571B3520FE00874766 /* LaunchScreen.xib */; };
 		260B57651B3520FF00874766 /* BurgerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 260B57641B3520FF00874766 /* BurgerTests.m */; };
+		260B57851B352A8400874766 /* Order.m in Sources */ = {isa = PBXBuildFile; fileRef = 260B57841B352A8400874766 /* Order.m */; };
+		260B57881B352ADB00874766 /* Burger.m in Sources */ = {isa = PBXBuildFile; fileRef = 260B57871B352ADB00874766 /* Burger.m */; };
+		260B578B1B352B4600874766 /* Patty.m in Sources */ = {isa = PBXBuildFile; fileRef = 260B578A1B352B4600874766 /* Patty.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,12 @@
 		260B575E1B3520FF00874766 /* BurgerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BurgerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		260B57631B3520FF00874766 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		260B57641B3520FF00874766 /* BurgerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BurgerTests.m; sourceTree = "<group>"; };
+		260B57831B352A8400874766 /* Order.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Order.h; sourceTree = "<group>"; };
+		260B57841B352A8400874766 /* Order.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Order.m; sourceTree = "<group>"; };
+		260B57861B352ADB00874766 /* Burger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Burger.h; sourceTree = "<group>"; };
+		260B57871B352ADB00874766 /* Burger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Burger.m; sourceTree = "<group>"; };
+		260B57891B352B4600874766 /* Patty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Patty.h; sourceTree = "<group>"; };
+		260B578A1B352B4600874766 /* Patty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Patty.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +106,12 @@
 				260B57551B3520FE00874766 /* Images.xcassets */,
 				260B57571B3520FE00874766 /* LaunchScreen.xib */,
 				260B57431B3520FE00874766 /* Supporting Files */,
+				260B57831B352A8400874766 /* Order.h */,
+				260B57841B352A8400874766 /* Order.m */,
+				260B57861B352ADB00874766 /* Burger.h */,
+				260B57871B352ADB00874766 /* Burger.m */,
+				260B57891B352B4600874766 /* Patty.h */,
+				260B578A1B352B4600874766 /* Patty.m */,
 			);
 			path = Burger;
 			sourceTree = "<group>";
@@ -228,8 +243,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				260B57851B352A8400874766 /* Order.m in Sources */,
 				260B57511B3520FE00874766 /* GameViewController.m in Sources */,
 				260B57491B3520FE00874766 /* AppDelegate.m in Sources */,
+				260B578B1B352B4600874766 /* Patty.m in Sources */,
+				260B57881B352ADB00874766 /* Burger.m in Sources */,
 				260B574C1B3520FE00874766 /* GameScene.m in Sources */,
 				260B57461B3520FE00874766 /* main.m in Sources */,
 			);
